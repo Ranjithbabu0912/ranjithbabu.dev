@@ -18,6 +18,11 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Ranjith Babu | Developer & Creator",
   description: "Personal portfolio of Ranjith Babu. Inspired by speed, design, and innovation.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
