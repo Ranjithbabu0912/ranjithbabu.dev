@@ -138,6 +138,10 @@ export default function Projects() {
                         />
                     ))}
                 </div>
+
+                <Link href="/work" className="flex items-center justify-center mt-12">
+                    <button className="border border-white/20 hover:bg-neon-lime hover:text-black transition-colors duration-300 py-4 px-8 rounded-lg cursor-pointer">View All Projects</button>
+                </Link>
             </div>
 
             {/* Floating Modal */}

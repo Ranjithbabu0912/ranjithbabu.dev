@@ -1,14 +1,60 @@
 
 export const projects = [
     {
+        id: "nammaresume",
+        title: "Namma Resume",
+        category: "SaaS • Productivity",
+        year: "2026",
+        status: "Live",
+        description: "A modern AI-ready resume builder that helps users create professional resumes with customizable templates, real-time preview, and instant PDF export. Users can personalize themes, generate shareable public resume links, and manage multiple resumes seamlessly. Built with a full-stack MERN architecture and optimized for performance and scalability.",
+        tech: [
+            "React.js (Vite)",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+            "Context API",
+            "ImageKit"
+        ],
+        features: [
+            "Multiple Resume Templates",
+            "Live Preview Editing",
+            "Custom Accent Color Themes",
+            "PDF Download (A4 Optimized)",
+            "Public Shareable Resume Link",
+            "Profile Image Upload",
+            "Section-wise Editing (Experience, Projects, Skills, etc.)",
+            "Responsive Design"
+        ],
+        link: "https://namma-resume.vercel.app",
+        github: "https://github.com/Ranjithbabu0912/Resume-Builder",
+        image: "/projects/nammaResume.png",
+        color: "from-indigo-500/20 to-purple-500/20"
+    },
+    {
         id: "smartscholar",
-        title: "SmartScholar AI",
+        title: "Smart Scholar",
         category: "SaaS • Education",
         year: "2025",
         status: "Live",
-        description: "An intelligent Learning Management System (LMS) that leverages AI to personalize course content and streamline curriculum management. Features automated grading and student performance analytics. The platform uses Next.js 14 and Neon DB (PostgreSQL) for a robust backend.",
-        tech: ["Next.js 14", "OpenAI API", "Neon DB (Postgres)", "Tailwind CSS", "Prisma"],
-        features: ["AI Content Generation", "Automated Grading", "Real-time Analytics", "Teacher & Student Dashboards"],
+        description: "Smart Scholar is an AI-powered Learning Management System (LMS) and SaaS platform that enables personalized education through real-time voice-based AI companions. It offers course management, interactive learning experiences, and scalable backend infrastructure with integrated authentication and subscription systems.",
+        tech: [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Clerk",
+            "Supabase",
+            "Vapi",
+            "Vercel"
+        ],
+        features: [
+            "AI Voice Assistant for Learning",
+            "Real-time Voice Interaction (Vapi)",
+            "Authentication & Subscription Billing (Clerk)",
+            "Course & Content Management System",
+            "Realtime Backend with Supabase",
+            "Fully Responsive UI"
+        ],
         link: "https://saas-app-ranjithbabu0912s-projects.vercel.app",
         github: "https://github.com/Ranjithbabu0912/saas-app",
         image: "/projects/SmartScholar.png",
@@ -16,14 +62,28 @@ export const projects = [
     },
     {
         id: "imagineai",
-        title: "ImagineAi",
+        title: "Imagine AI",
         category: "AI • Productivity",
         year: "2025",
         status: "Live",
-        description: "A comprehensive AI suite integrating text-to-image, code generation, and conversation capabilities using modern AI APIs. It serves as a central hub for creative professionals to generate assets on the fly.",
-        tech: ["React", "Node.js", "Express", "OpenAI", "Replicate"],
-        features: ["Multi-model Support", "Code Generation", "Image Synthesis", "Prompt Engineering Tools"],
-        link: "https://imagine-ai-bice.vercel.app",
+        description: "Imagine AI is a fully functional AI-powered productivity platform that combines multiple creative and utility tools into a single application. It enables users to generate images, write content, review resumes, and manipulate visuals using advanced AI models, making it a powerful all-in-one toolkit for creators and professionals.",
+        tech: [
+            "React",
+            "Node.js",
+            "Express",
+            "OpenAI API",
+            "Replicate",
+            "Tailwind CSS"
+        ],
+        features: [
+            "AI Image Generation",
+            "Background Remover",
+            "AI Blog Title Generator",
+            "AI Article Writer",
+            "AI Object Remover",
+            "AI Resume Reviewer",
+        ],
+        link: "https://imagine-ai-ranjith.vercel.app/",
         github: "https://github.com/ranjithbabu0912/ImagineAI",
         image: "/projects/ImagineAI.png",
         color: "from-purple-500/20 to-pink-500/20"

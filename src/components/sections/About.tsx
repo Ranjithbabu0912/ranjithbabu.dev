@@ -144,7 +144,7 @@ const StatCard = ({ stat, index }: { stat: any, index: number }) => (
 export default function About() {
     const stats = [
         {
-            value: "2",
+            value: "3",
             suffix: "+",
             label: "Years Experience",
             icon: Briefcase,

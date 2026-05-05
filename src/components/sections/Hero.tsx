@@ -78,7 +78,7 @@ export default function Hero() {
                 // Title Parallax
                 gsap.to(titleRef.current, {
                     x: x * 40,
-                    y: y * 40,
+                    y: -y * 40,
                     rotationY: x * 10,
                     rotationX: -y * 10,
                     duration: 1,
@@ -158,7 +158,7 @@ export default function Hero() {
             </div>
 
             {/* Main Title Area (Layer 1) - Sandwiched in the Middle */}
-            <div className="relative z-10 w-full px-4 text-center text-white drop-shadow-2xl -mt-20 md:mt-0">
+            <div className="relative z-10 w-full px-4 text-center text-white drop-shadow-2xl -mt-20 md:-mt-60">
                 <h1
                     ref={titleRef}
                     className="flex flex-col items-center justify-center leading-none select-none cursor-default"

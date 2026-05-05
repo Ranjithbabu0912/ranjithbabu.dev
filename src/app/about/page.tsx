@@ -170,7 +170,7 @@ export default function AboutPage() {
                                 className="flex gap-4"
                             >
                                 <div className="flex items-center gap-2 text-sm font-mono text-neon-lime">
-                                    <Coffee size={16} /> <span>Fuel: Tea/Coffee</span>
+                                    <Coffee size={16} /> <span>Fuel: Tea</span>
                                 </div>
                                 <div className="flex items-center gap-2 text-sm font-mono text-cyan-400">
                                     <BookOpen size={16} /> <span>Learning: Always</span>
@@ -313,10 +313,10 @@ export default function AboutPage() {
                         {[
                             { name: "React / Next.js", level: 95 },
                             { name: "Node.js / Express", level: 85 },
-                            { name: "TypeScript", level: 90 },
+                            // { name: "TypeScript", level: 90 },
                             { name: "Tailwind CSS & UI/UX", level: 92 },
                             { name: "Database (SQL/NoSQL)", level: 80 },
-                            { name: "Three.js / Animations", level: 75 }
+                            // { name: "Three.js / Animations", level: 75 }
                         ].map((skill, index) => (
                             <div key={index} className="mb-2">
                                 <div className="flex justify-between mb-2 text-sm font-mono uppercase tracking-wider">
