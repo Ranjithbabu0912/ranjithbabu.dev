@@ -1,6 +1,40 @@
 
 export const projects = [
     {
+        id: "cgpa-calculator",
+        title: "CGPA Calculator(GTNAC)",
+        category: "EdTech • Academic Analytics",
+        year: "2026",
+        status: "Live",
+        description: "An AI-powered academic performance tracking platform designed for GTN Arts College students. It automatically fetches and caches semester results, calculates CGPA and SGPA, provides detailed academic analytics, and predicts future performance through an intelligent target optimizer. Students can generate personalized study roadmaps, simulate grade improvements, and export professional A4-ready academic reports.",
+        tech: [
+            "React.js (Vite)",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Gemini API",
+            "Axios"
+        ],
+        features: [
+            "Automated Result Scraping & Syncing",
+            "MongoDB Result Caching",
+            "CGPA & SGPA Calculation",
+            "Semester-wise Performance Dashboard",
+            "AI Target CGPA Optimizer",
+            "Personalized Study Roadmaps",
+            "Manual Marks & Grade Simulator",
+            "Backlog & Grade Analytics",
+            "A4 Printable Academic Reports",
+            "Responsive Glassmorphic UI"
+        ],
+        link: "https://cgpa-therinjiko.vercel.app",
+        github: "https://github.com/Ranjithbabu0912/cgpa-calculator",
+        image: "/projects/cgpaCalculator.png",
+        color: "from-emerald-500/20 to-cyan-500/20"
+    },
+    {
         id: "nammaresume",
         title: "Namma Resume",
         category: "SaaS • Productivity",
