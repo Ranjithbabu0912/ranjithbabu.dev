@@ -132,9 +132,9 @@ export default function HeroMobile() {
             ease: "easeInOut",
             delay: 1,
           }}
-          className="absolute top-80 right-3 px-2.5 py-1 rounded-full bg-black/60 border border-white/20 text-[10px] font-mono text-white/90 backdrop-blur-md shadow-lg"
+          className="absolute top-96 right-3 px-2.5 py-1 rounded-full bg-black/60 border border-white/20 text-[10px] font-mono text-white/90 backdrop-blur-md shadow-lg"
         >
-          🎨 GSAP & Motion
+          🚀 Web Developer
         </motion.div>
 
         {/* <motion.div
