@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     id: "cgpa-calculator",
-    title: "CGPA Calculator(GTNAC)",
+    title: "CGPA Calculator (GTNAC)",
     category: "AI • EdTech",
     year: "2026",
     status: "Live",

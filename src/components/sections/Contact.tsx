@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, Twitter, Instagram } from "lucide-react";
+import { Mail, Linkedin, Github, Twitter, Instagram, ArrowUpRight } from "lucide-react";
 
 export default function Contact() {
     return (
         <section className="py-32 px-6 md:px-12 bg-background relative overflow-hidden">
 
             {/* Background decoration */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-neon-lime/5 rounded-full blur-3xl pointer-events-none" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-neon-lime/5 rounded-full blur-3xl pointer-events-none" />
 
             <div className="max-w-4xl mx-auto text-center relative z-10">
                 <motion.h2
@@ -38,8 +38,15 @@ export default function Contact() {
                     className="flex flex-col md:flex-row justify-center gap-6"
                 >
                     <a
-                        href="mailto:ranjithbabu.dev@gmail.com"
+                        href="/contact"
                         className="inline-flex items-center justify-center gap-3 bg-neon-lime text-dark-green px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:scale-105 transition-all duration-300"
+                    >
+                        <ArrowUpRight size={20} />
+                        Let's Contact
+                    </a>
+                    <a
+                        href="mailto:ranjithbabu.dev@gmail.com"
+                        className="inline-flex items-center justify-center gap-3 bg-black backdrop-blur-xl px-8 py-4 rounded-full font-bold text-xs text-white hover:bg-white hover:scale-105 transition-all duration-300"
                     >
                         <Mail size={20} />
                         ranjithbabu.dev@gmail.com
@@ -49,7 +56,7 @@ export default function Contact() {
                         {[
                             { icon: Github, href: "https://github.com/Ranjithbabu0912" },
                             { icon: Linkedin, href: "https://www.linkedin.com/in/ranjithbabu0912/" },
-                            { icon: Instagram, href: "https://www.instagram.com/ranjithbabu0912" }
+                            { icon: Instagram, href: "https://www.instagram.com/ranjithbabu.dev" }
                         ].map((item, i) => (
                             <a
                                 key={i}
@@ -64,7 +71,7 @@ export default function Contact() {
                 </motion.div>
             </div>
 
-            <footer className="absolute bottom-6 left-0 right-0 text-center text-white/20 text-sm font-mono">
+            <footer className="absolute mt-5 left-0 right-0 text-center text-white/20 text-xs font-mono">
                 &copy; {new Date().getFullYear()} Ranjith Babu. All Rights Reserved.
             </footer>
         </section>

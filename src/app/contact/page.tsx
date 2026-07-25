@@ -69,7 +69,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-mono text-white/40 uppercase tracking-widest">Email Me</p>
-                                        <p className="text-lg font-bold">ranjithbabu.dev@gmail.com</p>
+                                        <p className="text-xs font-bold">ranjithbabu.dev@gmail.com</p>
                                     </div>
                                 </a>
 
@@ -79,7 +79,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-xs font-mono text-white/40 uppercase tracking-widest">Location</p>
-                                        <p className="text-lg font-bold">Dindigul, Tamil Nadu, India & Remote</p>
+                                        <p className="text-xs font-bold">Dindigul, Tamil Nadu, India & Remote</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                                 {[
                                     { icon: Github, href: "https://github.com/ranjithbabu0912" },
                                     { icon: Linkedin, href: "https://www.linkedin.com/in/ranjithbabu0912/" },
-                                    { icon: Instagram, href: "https://www.instagram.com/ranjithbabu0912" },
+                                    { icon: Instagram, href: "https://www.instagram.com/ranjithbabu.dev" },
                                     { icon: MessageCircle, href: "https://wa.me/919043100583" }
                                 ].map((item, i) => (
                                     <a

@@ -151,7 +151,7 @@ export default function Projects() {
                     variants={scaleAnimation}
                     initial="initial"
                     animate={modal.active ? "enter" : "closed"}
-                    className="fixed top-0 left-0 h-[300px] w-[400px] md:h-[250px] md:w-[450px] bg-white pointer-events-none overflow-hidden z-50 hidden md:flex items-center justify-center rounded-lg"
+                    className="fixed top-0 left-0 h-75 w-[400px] md:h-[250px] md:w-[450px] bg-white pointer-events-none overflow-hidden z-50 hidden md:flex items-center justify-center rounded-lg"
                     style={{ transform: "translate(-50%, -50%)" }}
                 >
                     <div
